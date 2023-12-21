@@ -1,0 +1,138 @@
+
+
+
+.fondonav {
+    background-color: #003366;
+}
+
+.menu {
+    width: 100%;
+    float: left;
+    
+ 
+  }
+  
+  .menu ul li {
+    float: right;
+    list-style-type: none;
+    text-align: center;
+    vertical-align: text-top;  
+    
+  }
+  
+  .menu ul li a {
+    color: aliceblue;
+    padding: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+  }
+
+
+
+
+  /* flexbox */
+
+  .th2{
+    margin-left: 10%
+  }
+
+  .th5{
+   text-align: right;
+   margin-right: 27%;
+  }
+
+  .contenedor{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+  }
+
+  .contenedorimg{
+    margin-top: 5px;
+    justify-content: center;
+    padding-left: 50px;
+  }
+
+  .contenedorimg img{
+    width: 90%;
+    height: 80%;
+    border-radius: 35px;
+  }
+
+  .contenedorimg3 img{
+    width: 50%;
+    height: 50%;
+    border-radius: 35px;
+  }
+
+  .contenedortexto {
+    text-align: center;
+    padding: 5%;
+    padding-right: 50px;
+    
+  }
+
+  /* contenedor 2 flexbox */
+
+  .contenedor2{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+  }
+
+  .contenedorimg2{
+    margin-top: 5px;
+    justify-content: center;
+    padding-left: 50px;
+  }
+
+  .contenedorimg2 img{
+    width: 90%;
+    height: 80%;
+    border-radius: 35px;
+  }
+
+  .contenedortexto2 {
+    text-align: center;
+    padding-right: 50px;
+    font-size: medium;
+  }
+
+  .th3{
+    text-align: center;
+  }
+
+  .th4{
+    text-align: center;
+    color: aliceblue;
+  }
+
+
+
+  /* propaganda */
+
+
+  .containerpropa {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh; /* Esto asegura que el contenedor ocupe el 100% del alto de la ventana */
+}
+
+.containerpropa img {
+    
+  width: 20%;
+    height: 25%;
+    border-radius: 35px;
+
+}
+
+
+
+
+  
+
+
+  
